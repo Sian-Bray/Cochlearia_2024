@@ -1,0 +1,10 @@
+##fileformat=VCFv4.2
+##ALT=<ID=NON_REF,Description="Represents any possible alternative allele not already represented at this location by REF and ALT">
+##FILTER=<ID=FS,Description="FS > 60.0">
+##FILTER=<ID=HS,Description="HaplotypeScore < 13.0">
+##FILTER=<ID=LowQual,Description="Low quality">
+##FILTER=<ID=MQ,Description="MQ < 40.0">
+##FILTER=<ID=MQRS,Description="MQRankSum < -12.5">
+##FILTER=<ID=Mask,Description="Doesn't overlap a user-input mask">
+##FILTER=<ID=PASS,Description="All filters passed">
+##FILTER=<ID=QD,Description="QD < 2.0">

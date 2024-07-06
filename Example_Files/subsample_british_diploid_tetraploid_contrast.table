@@ -1,0 +1,24 @@
+CHROM	POS	REF	ALT	AC	AN	ANN[*].HGVS_P	CHROM	POS	REF	ALT	AC	AN	ANN[*].HGVS_P
+Cexcelsa_scaf_1	12372	A	T	22	58		Cexcelsa_scaf_1	12372	A	T	63	176	
+Cexcelsa_scaf_1	21298	A	G	14	58		Cexcelsa_scaf_1	21298	A	G	56	176	
+Cexcelsa_scaf_1	21308	T	C	14	58		Cexcelsa_scaf_1	21308	T	C	67	176	
+Cexcelsa_scaf_1	21332	A	G	14	58		Cexcelsa_scaf_1	21332	A	G	54	176	
+Cexcelsa_scaf_1	21363	T	C	16	58		Cexcelsa_scaf_1	21363	T	C	84	176	
+Cexcelsa_scaf_1	21832	C	T	26	58		Cexcelsa_scaf_1	21832	C	T	110	176	
+Cexcelsa_scaf_1	30332	A	G	10	58		Cexcelsa_scaf_1	30332	A	G	104	176	
+Cexcelsa_scaf_1	32201	C	T	18	58		Cexcelsa_scaf_1	32201	C	T	62	176	
+Cexcelsa_scaf_6	25848662	T	A	0	58		Cexcelsa_scaf_6	25848662	T	A	151	176	
+Cexcelsa_scaf_6	25848740	T	C	0	58		Cexcelsa_scaf_6	25848740	T	C	165	176	
+Cexcelsa_scaf_6	25849059	T	A	0	58		Cexcelsa_scaf_6	25849059	T	A	164	176	
+Cexcelsa_scaf_6	25849095	T	C	0	58		Cexcelsa_scaf_6	25849095	T	C	172	176	
+Cexcelsa_scaf_6	25849182	T	C	0	58		Cexcelsa_scaf_6	25849182	T	C	125	176	
+Cexcelsa_scaf_6	25849184	G	C	0	58		Cexcelsa_scaf_6	25849184	G	C	125	176	
+Cexcelsa_scaf_6	25849235	T	A	0	58		Cexcelsa_scaf_6	25849235	T	A	97	176	
+Cexcelsa_scaf_6	25849338	G	T	0	58		Cexcelsa_scaf_6	25849338	G	T	160	176	
+Cexcelsa_scaf_6	25849388	G	T	0	58		Cexcelsa_scaf_6	25849388	G	T	147	176	
+Cexcelsa_scaf_6	25849451	T	A	0	58		Cexcelsa_scaf_6	25849451	T	A	133	176	
+Cexcelsa_scaf_6	25849588	C	A	0	58		Cexcelsa_scaf_6	25849588	C	A	149	176	
+Cexcelsa_scaf_6	25849606	T	A	10	58		Cexcelsa_scaf_6	25849606	T	A	146	176	
+Cexcelsa_scaf_6	25849617	G	A	0	58		Cexcelsa_scaf_6	25849617	G	A	153	176	
+Cexcelsa_scaf_6	25849645	C	G	0	58		Cexcelsa_scaf_6	25849645	C	G	152	176	
+Cexcelsa_scaf_6	25849662	G	T	10	58		Cexcelsa_scaf_6	25849662	G	T	151	176	

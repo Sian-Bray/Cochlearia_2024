@@ -1,0 +1,21 @@
+ CHROM POS REF ALT AC AN AC AN ANN[*].HGVS_P
+ Cexcelsa_scaf_1 12372 A T 22 58 176  
+ Cexcelsa_scaf_1 21298 A G 14 58 176  
+ Cexcelsa_scaf_1 21308 T C 14 58 176  
+ Cexcelsa_scaf_1 21332 A G 14 58 176  
+ Cexcelsa_scaf_1 21363 T C 16 58 176  
+ Cexcelsa_scaf_1 21832 C T 26 58 176  
+ Cexcelsa_scaf_1 30332 A G 10 58 176  
+ Cexcelsa_scaf_1 32201 C T 18 58 176  
+  Cexcelsa_scaf_6 25849095 T C 0 58 176  
+ Cexcelsa_scaf_6 25849182 T C 0 58 176  
+ Cexcelsa_scaf_6 25849184 G C 0 58 176  
+ Cexcelsa_scaf_6 25849235 T A 0 58 176  
+ Cexcelsa_scaf_6 25849338 G T 0 58 176  
+ Cexcelsa_scaf_6 25849388 G T 0 58 176  
+ Cexcelsa_scaf_6 25849451 T A 0 58 176  
+ Cexcelsa_scaf_6 25849588 C A 0 58 176  
+ Cexcelsa_scaf_6 25849606 T A 10 58 176  
+ Cexcelsa_scaf_6 25849617 G A 0 58 176  
+ Cexcelsa_scaf_6 25849645 C G 0 58 176  
+ Cexcelsa_scaf_6 25849662 G T 10 58 176  

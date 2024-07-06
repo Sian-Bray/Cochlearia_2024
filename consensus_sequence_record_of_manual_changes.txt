@@ -1,0 +1,192 @@
+## g7445 ##
+# CENP-E
+
+# 0) Manual consensus made
+
+# No multiallellic sites present
+# Reassured myself that there is nothing missing from the end of this protein
+# There is a clear stop codon
+# while there is a DNA binding protein at the end of the gene (g7446) that could be a missing domain, blasts of the sequence give results in well studied organisms that cover almost the same sequence length.
+
+
+
+## g31016 ##
+# NIH
+
+# 0) Manual consensus
+cd /Users/sian_bray/Dropbox/Bray/000_Research/Cochlearia_Massive/07_AlphaFold/g31016
+grep -v ">" g31016_diploids_biallelic.fasta > g31016_diploids_biallelic_concat.fasta
+grep -v ">" g31016_tetraploids_biallelic.fasta > g31016_tetraploids_biallelic_concat.fasta
+# into g31016_alignment.fasta for the final manual consensus look
+	# scaffold 3, 1114247 - A>G in tetraploids, AF=0.841
+		# before AACAAACCGGGATT
+	# scaffold 3, 1114329 - G > GTTT in tetraploids, AF=0.813
+		# before GCTCCGATGGAAGCT
+	# scaffold 3, 1114544 - A>T in tetraploids, AF = 0.517
+		# before, GCAGAAATCAGCCAACAA
+
+
+## g6996 ##
+# CAP-H2/HEB2
+
+# 0) Manual consensus
+cd /Users/sian_bray/Dropbox/Bray/000_Research/Cochlearia_Massive/07_AlphaFold 
+mkdir g6996
+mv Consensus/*g6996* g6996/
+cd g6996/
+grep -v ">" g6996_diploids_biallelic.fasta > g6996_diploids_biallelic_concat.fasta
+grep -v ">" g6996_tetraploids_biallelic.fasta > g6996_tetraploids_biallelic_concat.fasta
+
+# into g6996_alignment.fasta for the final manual consensus look
+	# scaffold 4, 33416947 - G>A, AF = 0.649 in tetraploids
+		# ATGACGAGTC before
+	# scaffold 4, 33417086 - G>C, AF=0.807 in tetraploids
+		# AAAATATGTTCCGG before
+	# scaffold 4, 33418911 - G>T, AF=0.778 in tetraploids
+		# TAATCAGAAGGAC before
+
+
+## g40302 ##
+#HKT1
+
+# 0) Manual consensus
+cd /Users/sian_bray/Dropbox/Bray/000_Research/Cochlearia_Massive/07_AlphaFold 
+mkdir g40302
+mv Consensus/*g40302* g40302/
+cd g40302/
+grep -v ">" g40302_diploids_biallelic.fasta > g40302_diploids_biallelic_concat.fasta
+grep -v ">" g40302_tetraploids_biallelic.fasta > g40302_tetraploids_biallelic_concat.fasta
+
+# into g40302_alignment.fasta for the final manual look
+	# scaffold 2, 4113495 - G>A, AF = 0.722 in tetraploids
+		# AAAATACACTCGCA before, CTTGCTAAACCTA after (CTTGCTAAATCT after in tets)
+	# scaffold 2, 4113651 - A>G, AF = 0.563 in tetraploids
+		# CTGCCATCACCGC before
+	# scaffold 2, 4113888 - C>T, AF = 0.807 in tetraploids (0.379 in diploids)
+		# TTACAAATCATCG before
+	# scaffold 2, 4114362 - A>C, AF=0.841 in tetraploids
+		# TTTTTGATGATACA before
+
+# Need an alignment with all the studies HKT's in it:
+	# Figure 2 Almeida 2013
+	# Need the residue numbers and functions
+	# Figure 4 in Corratgé-Faillie
+	# Results of Riedelsberger
+
+# Added all mutants from the four papers to the JalView file:
+	# Almeida 2013 have text annotations
+		# HFS!!! Hit 
+	# Additional from Corratgé-Faillie 2010 - ignored the deletions (too large)
+		# Near HFS hit, R149E reduces the velocity of K+ uptake by ~1/2, slightly modifes K+ uptake (Mutation of His-157 in the Second Pore Loop Drastically Reduces the Activity of the Synechocystis Ktr-Type Transporter), not as important as His-157
+		# Near HFS hit, S282L = sas2-1 mutation "Expression in Xenopus oocytes revealed that the sas2-1 mutation did not affect the ionic selectivity of the transporter but strongly reduced the macro scopic (whole oocyte current) transport activity. ... The sas2-1 mutation strongly decreased Na+ concentration in the phloem sap. It led to Na+ overaccumulation in every aerial organ (except the stem), but to Na+ underaccumulation in roots. The sas2 plants displayed increased sensitivity to NaCl, with reduced growth and even death under moderate salinity." (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC156079/)
+		# Another dead on hit P51L, tested in rice HKT2;2 (P71), mutant does nothing though
+
+
+## g37705 ##
+# ASY3
+
+cd /Users/sian_bray/Dropbox/Bray/000_Research/Cochlearia_Massive/07_AlphaFold 
+mkdir g37705
+mv Consensus/*g37705* g37705/
+cd g37705/
+grep -v ">" g37705_diploids_biallelic.fasta > g37705_diploids_biallelic_concat.fasta
+grep -v ">" g37705_tetraploids_biallelic.fasta > g37705_tetraploids_biallelic_concat.fasta
+
+# into g37705_alignment.fasta for the final manual look
+	# scaffold 3, 39202399 - T>G, AF = 0.903 in the tetraploid
+		# CTCCAACTCTA before
+	# scaffold 3, 39203844 - T>C, AF = 0.608 in the tetraploids
+		# TCAACTTTCCCGTG before
+	# scaffold 3, 39203846 - G>A, AF = 0.608 in the tetraploids
+		# CTTTCCCGTGcA before in tets
+	# note: a lot of variation floating around the ~ 40% mark
+
+
+## g10739 ##
+# SOS1
+
+cd /Users/sian_bray/Dropbox/Bray/000_Research/Cochlearia_Massive/07_AlphaFold 
+mkdir g10739
+mv Consensus/*g10739* g10739/
+cd g10739/
+grep -v ">" g10739_diploids_biallelic.fasta > g10739_diploids_biallelic_concat.fasta
+grep -v ">" g10739_tetraploids_biallelic.fasta > g10739_tetraploids_biallelic_concat.fasta
+
+# into g10739_alignment.fasta for final manual look
+	# scaffold 1, 4090502 - G>T, AF = 0.784 in tetraploids
+		# TTACTCTTGCTCT before
+
+
+
+## g49945 ##
+# CENP-C
+
+cd /Users/sian_bray/Dropbox/Bray/000_Research/Cochlearia_Massive/07_AlphaFold/g49945_CENP-C
+grep -v ">" g49945_diploids_biallelic.fasta > g49945_diploids_biallelic_concat.fasta
+grep -v ">" g49945_tetraploids_biallelic.fasta > g49945_tetraploids_biallelic_concat.fasta
+
+# Final manual look (canceled to fix below error...)
+	# Scaffold 6, 2253619 - T>A, AF = 0.778	in tetraploids
+		# GATAGTAAATATCGAAACT before
+	# Scaffold 6, 2253789-2253792 - CGCT>AGCT, AF = 0.841 in tetraploids
+		# ATAAGCAGCGTGGCGCAGT before (occurs twice)
+		# GTCGCAACAGATACACACCAGAA after (also occurs twice...)
+
+# There are two variants of this gene in the gff (.t1 and .t2)
+	# t1 has a single extra amino acid (3 nts):
+	# GCAGGAGGTTAACAACTCGTCACACAAACAAACAAG (3 inserted nts at front)
+	# TCGAAAACACAAACACCGCTAGTGAACTTCAAGTAGAAAATGCTCA (3 inserted nts at the end)
+	# AQQEVNNSSHKQT (the 3rd a.a. [the second Q] is absent from t2)
+# From here on I will used t1
+
+# manually removed all exons after the second ">Cexcelsa_scaf_6:2252814-2252871"
+# regenerated the DNA alignment
+
+cd /Users/sian_bray/Dropbox/Bray/000_Research/Cochlearia_Massive/07_AlphaFold/g49945_CENP-C
+grep -v ">" g49945_diploids_biallelic.fasta > g49945_diploids_biallelic_concat.fasta
+grep -v ">" g49945_tetraploids_biallelic.fasta > g49945_tetraploids_biallelic_concat.fasta
+
+# Final manual look (continued/real)
+	# Scaffold 6, 2253619 - T>A, AF = 0.778	in tetraploids
+		# GATAGTAAATATCGAAACT before
+	# Scaffold 6, 2253789-2253792 - CGCT>AGCT, AF = 0.841 in tetraploids
+		# ATAAGCAGCGTGGCGCAGT before
+		# tets already have a mutation here (CGCC)
+		# CGCT>AGCT - most amino acids are the same, this is a bit of a gatk fart because there is a very low rate 3nt deletion at the same spot
+	# Scaffold 6, 2254310 - C>T, AF = 0.693 in the tetraploids
+		# AAATGTTTTGACTGAGTTG before (in dips not tets...)
+		# TTGCTTGCTCTCCGG after
+	# Scaffold 6, 2254453 A>C, AF = 0.676 in tetraploids
+		# TGTTAGACAATTGGACTT before
+	# Scaffold 6, 2255194 - G>T, AF = 0.733 in tetraploids
+		# GGATAACATCCAATTCA before
+		# CAAGGTATTTTAACC after
+		# Must be SNPs here already ... load biallelic VCFs
+		# ... no, after didn't work beacuse it's outside the exon ... try again
+		# GATAACATCCCAATTCA before (typo above)
+	# Scaffold 6, 2255378 T>A, AF = 0.750 in tetraploids (almost >0.5 in dips)
+		# AATCCTCAAAATCTCCA before
+	# Scaffold 6, 2255742 A>C, AF = 0.517 in diploids and AF = 0.92 in tetraploids
+		# GCGAAGCAAAACCA before
+	# Scaffold 6, 2255754 T>G, AF = 0.517 in diploids and AF = 0.932 in tetraploids
+		# CCATAATGAGA before
+	# Scaffold 6, 2255791 A>T, AF = 0.517 in diploids and AF = 0.767 in tetraploids
+		# ACAGTTTCTCATGA before
+
+
+## g2416 ##
+# TFIIB
+
+cd /Users/sian_bray/Dropbox/Bray/000_Research/Cochlearia_Massive/07_AlphaFold/g2416
+grep -v ">" g2416_diploids_biallelic.fasta > g2416_diploids_biallelic_concat.fasta
+grep -v ">" g2416_tetraploids_biallelic.fasta > g2416_tetraploids_biallelic_concat.fasta
+
+# Final manual check
+	# Scaffold 4, 9957817 T>C, AF = 0.83 in tetraploids (0.466 in dips)
+		# TTTGGCTAATAAAACT before
+	# Scaffold 4, 9957823 A>C, AF = 0.795 in tetraploids (also >0.4 in dips)
+		# CTCGTCGTATCTTCAA after
+	# Scaffold 4, 9959153 A>T, AF = 0.966 in tetraploids
+		# TTGGACTCTAAGGCTTCT before
+	# Scaffold 4
+
