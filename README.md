@@ -1,10 +1,10 @@
-# Kinetochore and ionomic adaptation to whole genome duplication in autotetraploid Cochlearia reveals evolutionary convergence in three autopolyploids
+# Kinetochore and ionomic adaptation to whole genome duplication in Cochlearia: evolutionary convergence in three autopolyploids
 
 ## Introduction
 
 This page contains the code for the paper:
 
-Sian M. Bray, Tuomas Hämälä, Min Zhou, Silvia Busoms, Sina Fischer, Stuart D. Desjardins, Terezie Mandáková, Chris Moore, Thomas C. Mathers, Laura Cowan, Patrick Monnahan, Jordan Koch, Eva M. Wolf1, Martin A. Lysak, Filip Kolar, James D. Higgins, Marcus A. Koch, and Levi Yant. _Kinetochore and ionomic adaptation to whole genome duplication in autotetraploid Cochlearia reveals evolutionary convergence in three autopolyploids._ 2024. **Cell Reports.**
+Sian M. Bray, Tuomas Hämälä, Min Zhou, Silvia Busoms, Sina Fischer, Stuart D. Desjardins, Terezie Mandáková, Chris Moore, Thomas C. Mathers, Laura Cowan, Patrick Monnahan, Jordan Koch, Eva M. Wolf1, Martin A. Lysak, Filip Kolar, James D. Higgins, Marcus A. Koch, and Levi Yant. _Kinetochore and ionomic adaptation to whole genome duplication in Cochlearia: evolutionary convergence in three autopolyploids._ 2024. **Cell Reports.**
 
 ## Environments and Inputs
 
